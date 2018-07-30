@@ -1,0 +1,418 @@
+虚拟用户脚本已从 : 2017-11-29 09:31:21 启动	[MsgId: MMSG-15967]
+正在开始操作 vuser_init。	[MsgId: MMSG-15919]
+Windows 7 版 LoadRunner 11.0.0 的 Web Turbo 重播; 内部版本 8859 (Aug 18 2010 20:14:31)  	[MsgId: MMSG-27143]
+Run Mode: HTML  	[MsgId: MMSG-26000]
+运行时设置文件: "C:\Users\V3-572G\AppData\Local\Temp\lr5tmpdirLWS.2\lrcfgm1n.3\cfgkCd.8"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。	[MsgId: MMSG-15918]
+正在运行 Vuser...	[MsgId: MMSG-15964]
+正在开始迭代 1。	[MsgId: MMSG-15968]
+正在开始操作 Action。	[MsgId: MMSG-15919]
+Action.c(4): 通知: 事务 "test1" 已启动。	[MsgId: MMSG-16999]
+Action.c(6): 注册 web_reg_save_param_ex 成功  	[MsgId: MMSG-26390]
+Action.c(14): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(16): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(18): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(20): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(22): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(24): "http://127.0.0.1:1080/WebTours/" 的 t=348ms: 164 个字节响应标头 (RelFrameId=1, Internal ID=1)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:21 GMT\r\n
+Action.c(24):     Content-type: text/html\r\n
+Action.c(24):     Content-length: 312\r\n
+Action.c(24):     Last-modified: Tue, 08 May 2007 11:40:24 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/" 的 t=349ms: 312 个字节响应正文 (RelFrameId=1, Internal ID=1)
+Action.c(24):     <HTML>\n
+Action.c(24):     <HEAD>\n
+Action.c(24):     <title>Web Tours</title>\n
+Action.c(24):     <frameset rows = "65,*" border=1 bordercolor=#E0E7F1>\n
+Action.c(24):     <frame name="header" src=header.html scrolling=no noresize marginheight=2 marginwidth=2>\n
+Action.c(24):     <frame name="body" src=welcome.pl?signOff=true scrolling=auto noresize marginheight=2 marg
+Action.c(24):     inwidth=2>\n
+Action.c(24):     </frameset>\n
+Action.c(24):     </head>\n
+Action.c(24):     </html>\n
+Action.c(24):     \n
+Action.c(24): 在“http://127.0.0.1:1080/WebTours/”中检测到非资源“http://127.0.0.1:1080/WebTours/header.html”  	[MsgId: MMSG-26574]
+Action.c(24): 在“http://127.0.0.1:1080/WebTours/”中检测到非资源“http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true”  	[MsgId: MMSG-26574]
+Action.c(24): 正在下载资源“http://www.bing.com/favicon.ico”(由参数编号 10 指定)  	[MsgId: MMSG-26577]
+Action.c(24): 正在下载资源“http://127.0.0.1:1080/favicon.ico”(由参数编号 13 指定)  	[MsgId: MMSG-26577]
+Action.c(24): 警告 -27798: 无法解析主机 www.bing.com 的地址  	[MsgId: MWAR-27798]
+Action.c(24): 警告 -26000: Empty or no response for URL="http://www.bing.com/favicon.ico"  	[MsgId: MWAR-26000]
+Action.c(24): "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true" 的 t=19280ms: 324 个字节响应标头 (RelFrameId=1.2, Internal ID=3)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:22 GMT\r\n
+Action.c(24):     Cache-control: no-cache\r\n
+Action.c(24):     Expires: 0\r\n
+Action.c(24):     Content-length: 630\r\n
+Action.c(24):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:21 GMT\r\n
+Action.c(24):     Set-cookie: MTUserInfo=; path=/; expires=Tue, 28-Nov-2017 01:31:21 GMT\r\n
+Action.c(24):     Set-cookie: MSO=SID&1511919081; path=/\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true" 的 t=19280ms: 630 个字节响应正文 (RelFrameId=1.2, Internal ID=3)
+Action.c(24):     <!-- \n
+Action.c(24):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(24):      Also, the server options have been loaded into the cookie called\n
+Action.c(24):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(24):      --->\n
+Action.c(24):     \n
+Action.c(24):     <html>\n
+Action.c(24):     <title>Web Tours</title>\n
+Action.c(24):        <!-- Frame Set -->\n
+Action.c(24):        <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(24):           <!-- Navigation Frame -->\n
+Action.c(24):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+Action.c(24):                 noresize scrolling=auto>\n
+Action.c(24):           <!-- Home Frame -->\n
+Action.c(24):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+Action.c(24):                 noresize scrolling=auto>\n
+Action.c(24):        </frameset>\n
+Action.c(24):     \n
+Action.c(24):     </body>\n
+Action.c(24):     </html>
+Action.c(24): 在“http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true”中检测到非资源“http://127.0.0.1:1080/WebTours/nav.pl?in=home”  	[MsgId: MMSG-26574]
+Action.c(24): 在“http://127.0.0.1:1080/WebTours/welcome.pl?signOff=true”中检测到非资源“http://127.0.0.1:1080/WebTours/home.html”  	[MsgId: MMSG-26574]
+Action.c(24): "http://127.0.0.1:1080/favicon.ico" 的 t=19287ms: 144 个字节响应标头 (RelFrameId=, Internal ID=5)
+Action.c(24):     HTTP/1.1 404 Not found\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Connection: Close\r\n
+Action.c(24):     Content-length: 114\r\n
+Action.c(24):     Content-type: text/html\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/favicon.ico" 的 t=19287ms: 114 个字节响应正文 (RelFrameId=, Internal ID=5)
+Action.c(24):     <HTML><TITLE>Error</TITLE><BODY><H1>\n
+Action.c(24):     \r\n
+Action.c(24):     The URL you asked for does not exist on this website\n
+Action.c(24):     \r\n
+Action.c(24):     </H1></BODY></HTML>\n
+Action.c(24): 警告 -26627: 对于“http://127.0.0.1:1080/favicon.ico”，HTTP 状态代码=404 (Not found)  	[MsgId: MWAR-26627]
+Action.c(24): "http://127.0.0.1:1080/WebTours/header.html" 的 t=19288ms: 164 个字节响应标头 (RelFrameId=1.1, Internal ID=2)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Content-type: text/html\r\n
+Action.c(24):     Content-length: 692\r\n
+Action.c(24):     Last-modified: Tue, 08 May 2007 11:40:24 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/header.html" 的 t=19289ms: 692 个字节响应正文 (RelFrameId=1.1, Internal ID=2)
+Action.c(24):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Action.c(24):     <HTML><HEAD></HEAD>\n
+Action.c(24):     <BODY bgcolor=#003366 leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">\n
+Action.c(24):     \t\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+Action.c(24):     bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Action.c(24):     \t\t<table width="100%" border="0" cellspacing="0" cellpadding="0">\n
+Action.c(24):     \t\t\t<tr>\n
+Action.c(24):     \t\t\t\t<td align="left" valign="middle" width="50%"><img src="images/hp_logo.png" alt="" 
+Action.c(24):     height="45" width="69" align="absmiddle" border="0"><img src="images/webtours.png" alt="" 
+Action.c(24):     height="45" width="130" align="absmiddle" border="0"></td>\n
+Action.c(24):     \t\t\t\t<td align="right"></td>\n
+Action.c(24):     \t\t\t\t<td></td>\n
+Action.c(24):     \t\t\t</tr>\n
+Action.c(24):     \t\t</table>\n
+Action.c(24):     \t</BODY>\n
+Action.c(24): 在 HTML“http://127.0.0.1:1080/WebTours/header.html”中找到资源“http://127.0.0.1:1080/WebTours/images/hp_logo.png”  	[MsgId: MMSG-26659]
+Action.c(24): 在 HTML“http://127.0.0.1:1080/WebTours/header.html”中找到资源“http://127.0.0.1:1080/WebTours/images/webtours.png”  	[MsgId: MMSG-26659]
+Action.c(24): "http://127.0.0.1:1080/WebTours/home.html" 的 t=19298ms: 165 个字节响应标头 (RelFrameId=1.2.2, Internal ID=7)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Content-type: text/html\r\n
+Action.c(24):     Content-length: 1322\r\n
+Action.c(24):     Last-modified: Tue, 08 May 2007 11:40:24 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/home.html" 的 t=19298ms: 1322 个字节响应正文 (RelFrameId=1.2.2, Internal ID=7)
+Action.c(24):     <HTML>\n
+Action.c(24):     <HEAD>\n
+Action.c(24):     \t<title>Web Tours</title>\n
+Action.c(24):     </head>\n
+Action.c(24):     <style>\n
+Action.c(24):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(24):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(24):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(24):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(24):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(24):     N: none}\n
+Action.c(24):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(24):     CORATION: underline}\n
+Action.c(24):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(24):     </style>\n
+Action.c(24):     <body bgcolor=#e0e7f1>\n
+Action.c(24):     <BR>\n
+Action.c(24):     <BR>\n
+Action.c(24):     <BR>\n
+Action.c(24):     <br >\n
+Action.c(24):     <table border=0>\n
+Action.c(24):     <tr><td></td></tr>\n
+Action.c(24):     <TR><TD></TD></TR>\n
+Action.c(24):     <TR><TD>\n
+Action.c(24):     <blockquote>\n
+Action.c(24):     <H1><b>Web Tours</b></H1>\n
+Action.c(24):     Welcome to the Web Tours site.\n
+Action.c(24):     <br>\n
+Action.c(24):     To make reservations,please enter your account information to the left.\n
+Action.c(24):     <br>\n
+Action.c(24):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+Action.c(24):      ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(24):     <br>\n
+Action.c(24):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+Action.c(24):     </A> link.\n
+Action.c(24):     <br><br><br><br><br><br>\n
+Action.c(24):     <br><small>\n
+Action.c(24):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(24):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+Action.c(24):     </small>\n
+Action.c(24):     </blockquote></TD>\n
+Action.c(24):     <TD></TD></TR>\n
+Action.c(24):     </table>\n
+Action.c(24):     </body>\n
+Action.c(24):     </html>\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/hp_logo.png" 的 t=19306ms: 164 个字节响应标头 (RelFrameId=, Internal ID=8)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Content-type: image/png\r\n
+Action.c(24):     Content-length: 601\r\n
+Action.c(24):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/hp_logo.png" 的 t=19306ms: 601 个字节响应正文 (RelFrameId=, Internal ID=8)
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/webtours.png" 的 t=19309ms: 164 个字节响应标头 (RelFrameId=, Internal ID=9)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Content-type: image/png\r\n
+Action.c(24):     Content-length: 818\r\n
+Action.c(24):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/webtours.png" 的 t=19310ms: 818 个字节响应正文 (RelFrameId=, Internal ID=9)
+Action.c(24): "http://127.0.0.1:1080/WebTours/nav.pl?in=home" 的 t=19516ms: 253 个字节响应标头 (RelFrameId=1.2.1, Internal ID=6)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Cache-control: no-cache\r\n
+Action.c(24):     Expires: 0\r\n
+Action.c(24):     Content-length: 1391\r\n
+Action.c(24):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Expires: Tue, 28 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/nav.pl?in=home" 的 t=19516ms: 1391 个字节响应正文 (RelFrameId=1.2.1, Internal ID=6)
+Action.c(24):     <!DOCTYPE html\n
+Action.c(24):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(24):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(24):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(24):     <head>\n
+Action.c(24):     <title>Web Tours Navigation Bar</title>\n
+Action.c(24):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(24):     </head>\n
+Action.c(24):     <body bgcolor="#E0E7F1">\n
+Action.c(24):     <style>\n
+Action.c(24):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(24):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(24):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(24):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(24):     </style>\n
+Action.c(24):     <form method=post action=login.pl target=body>\n
+Action.c(24):     <input type=hidden name=userSession value=122472.181530984zcQQzzcpiDHfDHHQHpQHHAcf>\n
+Action.c(24):     <table border=0><tr><td>&nbsp;</td>\n
+Action.c(24):     <td>&nbsp;</td>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td>&nbsp;</td></tr>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td><small>&nbsp;Password</small></td>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td>&nbsp;<tr><td>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     <td><input type=image name=login value=Login alt=Login border=1 \n
+Action.c(24):     src='/WebTours/images/mer_login.gif'>\n
+Action.c(24):     <tr><td>&nbsp;</td>\n
+Action.c(24):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+Action.c(24):     </form>\n
+Action.c(24):     \n
+Action.c(24):     </body>\n
+Action.c(24):     </html>\n
+Action.c(24): 在 HTML“http://127.0.0.1:1080/WebTours/nav.pl?in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/mer_login.gif”  	[MsgId: MMSG-26659]
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/mer_login.gif" 的 t=19524ms: 164 个字节响应标头 (RelFrameId=, Internal ID=10)
+Action.c(24):     HTTP/1.1 200 Ok\r\n
+Action.c(24):     Server: Xitami\r\n
+Action.c(24):     Date: Wed, 29 Nov 2017 01:31:40 GMT\r\n
+Action.c(24):     Content-type: image/gif\r\n
+Action.c(24):     Content-length: 679\r\n
+Action.c(24):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(24):     \r\n
+Action.c(24): "http://127.0.0.1:1080/WebTours/images/mer_login.gif" 的 t=19524ms: 679 个字节响应正文 (RelFrameId=, Internal ID=10)
+Action.c(24): web_url("WebTours") 最高严重级别为“warning”，6559 个正文字节，1706 个标头字节  	[MsgId: MMSG-26388]
+Action.c(37): 集合 login	[MsgId: MMSG-17988]
+Action.c(39): "http://127.0.0.1:1080/WebTours/login.pl" 的 t=19755ms: 356 个字节响应标头 (RelFrameId=1, Internal ID=11)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Cache-control: no-cache\r\n
+Action.c(39):     Expires: 0\r\n
+Action.c(39):     Content-length: 437\r\n
+Action.c(39):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Expires: 5s\r\n
+Action.c(39):     Set-cookie: MTUserInfo=firstName&w&address2&123&username&wyx1&hash&49&lastName&yx%0A&addre
+Action.c(39):     ss1&123&creditCard&&expDate&%0A; path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/login.pl" 的 t=19755ms: 437 个字节响应正文 (RelFrameId=1, Internal ID=11)
+Action.c(39):     <!--\n
+Action.c(39):     User password was correct - added a cookie with the user's default\n
+Action.c(39):     information.  Set the user up to make reservations...\n
+Action.c(39):     \n
+Action.c(39):     --->\n
+Action.c(39):     \n
+Action.c(39):     <html>\n
+Action.c(39):     <title>Web Tours</title>\n
+Action.c(39):     <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(39):     <frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scro
+Action.c(39):     lling=auto>\n
+Action.c(39):     <frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=a
+Action.c(39):     uto>\n
+Action.c(39):     </frameset>\n
+Action.c(39):     \n
+Action.c(39):     </body>\n
+Action.c(39):     </html>
+Action.c(39): 在“http://127.0.0.1:1080/WebTours/login.pl”中检测到非资源“http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home”  	[MsgId: MMSG-26574]
+Action.c(39): 在“http://127.0.0.1:1080/WebTours/login.pl”中检测到非资源“http://127.0.0.1:1080/WebTours/login.pl?intro=true”  	[MsgId: MMSG-26574]
+Action.c(39): "http://127.0.0.1:1080/WebTours/login.pl?intro=true" 的 t=19964ms: 225 个字节响应标头 (RelFrameId=1.2, Internal ID=13)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Cache-control: no-cache\r\n
+Action.c(39):     Expires: 0\r\n
+Action.c(39):     Content-length: 912\r\n
+Action.c(39):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Expires: 5s\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/login.pl?intro=true" 的 t=19964ms: 912 个字节响应正文 (RelFrameId=1.2, Internal ID=13)
+Action.c(39):     <!DOCTYPE html\n
+Action.c(39):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(39):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(39):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(39):     <head>\n
+Action.c(39):     <title>Welcome to Web Tours</title>\n
+Action.c(39):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(39):     </head>\n
+Action.c(39):     <body bgcolor="#E0E7F1">\n
+Action.c(39):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Action.c(39):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Action.c(39):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Action.c(39):     black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>wyx1</b>, to the Web Tours reser
+Action.c(39):     vation pages.<BR>Using the menu to the left, you can search for new flights to book, \n
+Action.c(39):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Action.c(39):     you're done!\n
+Action.c(39):     </blockquote>\n
+Action.c(39):     </body>\n
+Action.c(39):     </html>
+Action.c(39): "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home" 的 t=19965ms: 253 个字节响应标头 (RelFrameId=1.1, Internal ID=12)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Cache-control: no-cache\r\n
+Action.c(39):     Expires: 0\r\n
+Action.c(39):     Content-length: 1446\r\n
+Action.c(39):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Expires: Tue, 28 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home" 的 t=19965ms: 1446 个字节响应正文 (RelFrameId=1.1, Internal ID=12)
+Action.c(39):     <!DOCTYPE html\n
+Action.c(39):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(39):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(39):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(39):     <head>\n
+Action.c(39):     <title>Web Tours Navigation Bar</title>\n
+Action.c(39):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(39):     </head>\n
+Action.c(39):     <body bgcolor="#E0E7F1">\n
+Action.c(39):     \n
+Action.c(39):     <style>\n
+Action.c(39):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(39):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(39):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(39):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(39):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(39):     N: none}\n
+Action.c(39):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(39):     CORATION: underline}\n
+Action.c(39):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(39):     </style>\n
+Action.c(39):     \n
+Action.c(39):     <BR><BR><center>\n
+Action.c(39):     \n
+Action.c(39):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Action.c(39):     ours/images/flights.gif \n
+Action.c(39):     ALT="Search Flights Button"></A>\n
+Action.c(39):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Action.c(39):     images/itinerary.gif \n
+Action.c(39):     ALT="Itinerary Button"></A>\n
+Action.c(39):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Action.c(39):     es/in_home.gif \n
+Action.c(39):     ALT="Home Button"></A>\n
+Action.c(39):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Action.c(39):     s/signoff.gif \n
+Action.c(39):     ALT="SignOff Button"></A></center>\n
+Action.c(39):     \n
+Action.c(39):     </body>\n
+Action.c(39):     </html>\n
+Action.c(39): 在 HTML“http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/flights.gif”  	[MsgId: MMSG-26659]
+Action.c(39): 在 HTML“http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/itinerary.gif”  	[MsgId: MMSG-26659]
+Action.c(39): 在 HTML“http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/in_home.gif”  	[MsgId: MMSG-26659]
+Action.c(39): 在 HTML“http://127.0.0.1:1080/WebTours/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/signoff.gif”  	[MsgId: MMSG-26659]
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/itinerary.gif" 的 t=19969ms: 164 个字节响应标头 (RelFrameId=, Internal ID=15)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Content-type: image/gif\r\n
+Action.c(39):     Content-length: 733\r\n
+Action.c(39):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/flights.gif" 的 t=19970ms: 164 个字节响应标头 (RelFrameId=, Internal ID=14)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Content-type: image/gif\r\n
+Action.c(39):     Content-length: 726\r\n
+Action.c(39):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/flights.gif" 的 t=19970ms: 726 个字节响应正文 (RelFrameId=, Internal ID=14)
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/itinerary.gif" 的 t=19971ms: 733 个字节响应正文 (RelFrameId=, Internal ID=15)
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/in_home.gif" 的 t=19972ms: 164 个字节响应标头 (RelFrameId=, Internal ID=16)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Content-type: image/gif\r\n
+Action.c(39):     Content-length: 688\r\n
+Action.c(39):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/signoff.gif" 的 t=19974ms: 164 个字节响应标头 (RelFrameId=, Internal ID=17)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Wed, 29 Nov 2017 01:31:41 GMT\r\n
+Action.c(39):     Content-type: image/gif\r\n
+Action.c(39):     Content-length: 751\r\n
+Action.c(39):     Last-modified: Mon, 08 Feb 2010 07:51:44 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/signoff.gif" 的 t=19974ms: 751 个字节响应正文 (RelFrameId=, Internal ID=17)
+Action.c(39): "http://127.0.0.1:1080/WebTours/images/in_home.gif" 的 t=19974ms: 688 个字节响应正文 (RelFrameId=, Internal ID=16)
+Action.c(39): web_submit_data("login.pl") 已成功，5693 个正文字节，1490 个标头字节  	[MsgId: MMSG-26386]
+Action.c(56): 通知: 事务 "test1" 以 "Pass" 状态结束 (持续时间: 19.6408 浪费的时间: 0.0004)。	[MsgId: MMSG-16871]
+正在结束操作 Action。	[MsgId: MMSG-15918]
+正在结束迭代 1。	[MsgId: MMSG-15965]
+正在结束 Vuser...	[MsgId: MMSG-15966]
+正在开始操作 vuser_end。	[MsgId: MMSG-15919]
+正在结束操作 vuser_end。	[MsgId: MMSG-15918]
+Vuser 已终止。	[MsgId: MMSG-15963]
+Vuser 0 (线程 7164)正常结束。"	[MsgId: MMSG-10695]

@@ -1,0 +1,7 @@
+错误: CCI 编译错误 -Action.c (52): illegal character ``'
+。	[MsgId: MERR-19799]
+错误: CCI 编译错误 -c:\\users\\v3-572g\\appdata\\local\\temp\\brr_qu4.786\\global_dir\\174855913\\combined_test1.c (5): 1 errors, not writing pre_cci.ci
+。	[MsgId: MERR-19799]
+错误: Vuser 编译失败。	[MsgId: MERR-19800]
+警告: 扩展 cciext.dll 报告在调用函数 ExtPerProcessInitialize 时出现错误 -19800	[MsgId: MWAR-10485]
+错误: 线程上下文: 调用驱动程序的服务失败。原因 – 线程上下文未在此线程上初始化。	[MsgId: MERR-10176]

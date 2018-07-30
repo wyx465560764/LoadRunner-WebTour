@@ -1,0 +1,40 @@
+开始自动日志消息堆栈 – 迭代 4。	[MsgId: MMSG-10545]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/jpkc.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/sous.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/upload.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/depart/jgsz.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/syspic/home_r13_c5.gif”  	[MsgId: MMSG-26659]
+Action.c(6): 错误 -27727: 下载资源时步骤下载超时 (120 seconds) 已过期。请将“由资源引起的步骤超时是警告”运行时设置设置为是/否以将此消息分别作为警告/错误显示  	[MsgId: MERR-27727]
+结束自动日志消息堆栈。	[MsgId: MMSG-10544]
+
+
+开始自动日志消息堆栈 – 迭代 19。	[MsgId: MMSG-10545]
+Action.c(55): 正在下载资源“http://jwzx.cqupt.edu.cn/jwzxtmp/js/jquery-easyui-1.5/themes/metro/images/pagination_icons.png”(由参数编号 33 指定)  	[MsgId: MMSG-26577]
+Action.c(55): 正在下载资源“http://jwzx.cqupt.edu.cn/jwzxtmp/js/jquery-easyui-1.5/themes/metro/images/loading.gif”(由参数编号 36 指定)  	[MsgId: MMSG-26577]
+Action.c(55): 正在下载资源“http://jwzx.cqupt.edu.cn/jwzxtmp/data/json_studentList.php?dirId=&page=1&rows=20”(由参数编号 39 指定)  	[MsgId: MMSG-26577]
+Action.c(55): 正在下载资源“http://jwzx.cqupt.edu.cn/jwzxtmp/images/icons/grid.png”(由参数编号 42 指定)  	[MsgId: MMSG-26577]
+Action.c(55): 正在下载资源“http://jwzx.cqupt.edu.cn/jwzxtmp/data/json_studentList.php?dirId=&searchKey=2015214019&page=1&rows=20”(由参数编号 45 指定)  	[MsgId: MMSG-26577]
+Action.c(55): 错误 -27727: 下载资源时步骤下载超时 (120 seconds) 已过期。请将“由资源引起的步骤超时是警告”运行时设置设置为是/否以将此消息分别作为警告/错误显示  	[MsgId: MERR-27727]
+结束自动日志消息堆栈。	[MsgId: MMSG-10544]
+
+
+开始自动日志消息堆栈 – 迭代 11。	[MsgId: MMSG-10545]
+Action.c(96): 资源“http://jwzx.cqupt.edu.cn/jwzxtmp/jqUI/smoothness/images/ui-bg_glass_65_ffffff_1x400.png”已在缓存中，不会再次下载  	[MsgId: MMSG-26655]
+Action.c(96): 资源“http://jwzx.cqupt.edu.cn/jwzxtmp/jqUI/smoothness/images/ui-bg_glass_75_dadada_1x400.png”已在缓存中，不会再次下载  	[MsgId: MMSG-26655]
+Action.c(96): 资源“http://jwzx.cqupt.edu.cn/jwzxtmp/images/room.png”已在缓存中，不会再次下载  	[MsgId: MMSG-26655]
+Action.c(96): 资源“http://jwzx.cqupt.edu.cn/jwzxtmp/images/large-loading.gif”已在缓存中，不会再次下载  	[MsgId: MMSG-26655]
+Action.c(96): 资源“http://jwzx.cqupt.edu.cn/jwzxtmp/images/icons/page_white_excel.png”已在缓存中，不会再次下载  	[MsgId: MMSG-26655]
+Action.c(96): 错误 -27728: 已经超过步骤下载超时(120 秒)  	[MsgId: MERR-27728]
+结束自动日志消息堆栈。	[MsgId: MMSG-10544]
+
+
+开始自动日志消息堆栈 – 迭代 19。	[MsgId: MMSG-10545]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/jpkc.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/sous.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/sysPic/upload.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/depart/jgsz.jpg”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://jwzx.cqupt.edu.cn/index.php”中找到资源“http://jwzx.cqupt.edu.cn/syspic/home_r13_c5.gif”  	[MsgId: MMSG-26659]
+Action.c(6): 错误 -27727: 下载资源时步骤下载超时 (120 seconds) 已过期。请将“由资源引起的步骤超时是警告”运行时设置设置为是/否以将此消息分别作为警告/错误显示  	[MsgId: MERR-27727]
+结束自动日志消息堆栈。	[MsgId: MMSG-10544]
+
+
