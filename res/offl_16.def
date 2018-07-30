@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Bytes Total/sec (Server)
+DataPointLabel_1=offline_datapoint_16
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Bytes Total/sec (Server)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=服务器已通过网络收发的字节数。此值可全面说明服务器的繁忙程度。

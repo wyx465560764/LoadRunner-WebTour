@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Available MBytes (Memory)
+DataPointLabel_1=offline_datapoint_8
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Available MBytes (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Available MBytes (可用内存 MB 数) 是指可供计算机上的进程运行时使用的物理内存量，以 MB，而不是 Memory\Available Bytes (可用内存字节数) 中使用的字节为单位。它是通过将填零内存、可用内存和备用内存列表上的空间量相加进行计算。可用内存是指可以使用的内存; 填零内存是指用零填充以防止后面的进程看到前面进程所用数据的内存页; 备用内存是指在磁盘路径上从进程工作区 (其物理内存) 释放，但仍可以被重新调用的内存。此计数器不显示平均值，只显示最后观察到的值。

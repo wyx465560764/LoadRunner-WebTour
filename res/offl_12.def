@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% Interrupt Time (Processor _Total)
+DataPointLabel_1=offline_datapoint_12
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% Interrupt Time (Processor _Total)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=% Interrupt Time (中断时间百分比) 是指处理器在采样间隔期间接收和维修硬件中断的时间。该值是生成中断的设备（如系统时钟、鼠标、磁盘驱动器、数据通信线路、网卡和其他外设）活动的间接指标。这些设备通常在完成任务或需要引起注意时中断处理器。在中断期间，正常的线程执行将暂停。大多数系统时钟每 10 毫秒中断一次处理器，创建中断活动背景。在中断期间，暂停正常的线程执行。此计数器显示平均繁忙时间在采样时间内所占的百分比。

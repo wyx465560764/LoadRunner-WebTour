@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Working Set (Process _Total)
+DataPointLabel_1=offline_datapoint_7
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Working Set (Process _Total)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Working Set (工作集大小) 以字节为单位，是此进程工作集的当前大小。此工作集是进程中的线程最近调用的内存页集。如果计算机中的可用内存大于阈值，即使内存页未在使用，也会留在进程的工作集中。当可用内存小于阈值时，将从工作集中删除内存页。如果需要内存页，它们会在离开主内存之前以软故障的形式返回到工作集中。

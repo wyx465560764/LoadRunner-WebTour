@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Split IO/Sec (PhysicalDisk _Total)
+DataPointLabel_1=offline_datapoint_18
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Split IO/Sec (PhysicalDisk _Total)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Split IO/Sec (每秒 IO 分割率) 报告磁盘的 I/O 分割成多个 I/O 的速率。分割 I/O 可能是因为请求的数据太大，无法放入单个 I/O 或者因为磁盘碎片太多。

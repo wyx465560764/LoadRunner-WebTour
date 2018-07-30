@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Pages/sec (Memory)
+DataPointLabel_1=offline_datapoint_6
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Pages/sec (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Pages/sec 是指为解决引用时不在内存中的页面的内存引用问题，从磁盘读取的或写入磁盘的页面数。这是 Pages Input/sec 和 Pages Output/sec 的和。此计数器中包括代表系统高速缓存访问应用程序文件数据的分页流量。此值还包括传递到/来自非高速缓存映射内存文件的页数。如果您关心内存压力过大问题 (即系统失效) 和可能产生的过多分页，则这是值得考虑的主要计数器。

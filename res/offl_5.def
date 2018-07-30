@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Page Reads/sec (Memory)
+DataPointLabel_1=offline_datapoint_5
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Page Reads/sec (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Page Reads/sec (每秒页面读取次数) 是指为解决页面硬故障而读取磁盘的速率。它显示读取次数，而不考虑每次读取时检索的页面数。当一个进程引用虚拟内存中的页面，而此页面不在工作集中或位于物理内存中的其他位置，并且必须从磁盘检索时，就会发生页面硬故障。此计数器是引起系统级延迟的故障的主要指标。它包括为解决文件系统缓存 (通常由应用程序请求) 和非缓存映射内存文件中的故障而执行的读取操作。比较 Memory\Pages Reads/sec (每秒内存/页面读取次数) 与 Memory\Pages Input/sec (每秒内存/页面输入次数) 的值可以确定每个操作读取的平均页面数量。

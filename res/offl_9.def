@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Interrupts/sec (Processor _Total)
+DataPointLabel_1=offline_datapoint_9
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Interrupts/sec (Processor _Total)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Interrupts/sec 是指处理器平均每秒接收和处理硬件中断的数量。这不包括单独计数的 DPC。此值是生成中断的设备(如系统时钟、鼠标、磁盘驱动器、数据通信线路、网络接口卡和其他外围设备)活动的间接指示。这些设备在完成任务或需要注意时，通常会中断处理器。中断期间，正常执行的线程将挂起。大多数系统时钟每隔 10 毫秒会中断一次处理器，从而创建后台中断活动。该计数器显示最后两次采样中观察到的值再除以采样间隔持续时间之后的差。

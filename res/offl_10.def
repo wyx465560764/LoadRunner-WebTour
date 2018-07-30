@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Context Switches/sec (System)
+DataPointLabel_1=offline_datapoint_10
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Context Switches/sec (System)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Context Switches/sec (每秒上下文切换次数) 是指计算机上的所有处理器从一个线程切换到另一个线程的综合速率。当正在运行的线程主动放弃处理器时发生上下文切换，优先级更高的就绪线程将占先，或在用户模式和特权 (内核) 模式间切换以使用执行或子系统服务。它是在计算机所有处理器上运行的所有线程的 Thread\Context Switches/sec (每秒线程/上下文切换次数) 总和，可用切换次数来计算。系统和线程对象上有上下文切换计数器。此计数器显示最后两次采样期间观察到的值差除以采样间隔时间所得到的值。

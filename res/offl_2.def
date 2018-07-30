@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Page Faults/sec (Memory)
+DataPointLabel_1=offline_datapoint_2
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Page Faults/sec (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Page Faults/sec 是指处理器中页面错误的计数。当进程引用虚拟内存页面，而该页面不在其位于主内存的工作集当中时，将出现页面错误。如果某页面位于待机列表中(因此它已位于主内存中)，或者它正在被共享该页面的其他进程所使用，则页面错误不会导致该页从磁盘中取出。

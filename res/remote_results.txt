@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Users\V3-572G\Desktop\test1\res\localhost_1.eve

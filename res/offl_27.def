@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Cache Bytes (Memory)
+DataPointLabel_1=offline_datapoint_27
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Cache Bytes (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Cache Bytes (缓存字节数) 是 Memory\System Cache Resident Bytes (内存/系统缓存驻留字节数)、Memory\System Driver Resident Bytes (内存/系统驱动程序驻留字节数)、Memory\System Code Resident Bytes (内存/系统代码驻留字节数) 和 Memory\Pool Paged Resident Bytes (内存/分页池驻留字节数) 计数器的总和。此计数器不显示平均值，只显示最后观察到的值。

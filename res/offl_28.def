@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Pool Paged Failures (Server)
+DataPointLabel_1=offline_datapoint_28
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Pool Paged Failures (Server)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=从分页池分配时失败的次数。这种失败说明计算机的物理内存或分页文件太小。

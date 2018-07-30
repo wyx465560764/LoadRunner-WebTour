@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Pool Nonpaged Bytes (Memory)
+DataPointLabel_1=offline_datapoint_4
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Pool Nonpaged Bytes (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Pool Nonpaged Bytes 是指非分页池中的字节数，非分页池是一种系统内存区域，操作系统组件在完成其指定任务时在此获得空间。非分页池页面不能退出到分页文件，但是这些页面一经分配就可一直位于主内存中。

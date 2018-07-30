@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=System Cache Resident Bytes (Memory)
+DataPointLabel_1=offline_datapoint_26
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=System Cache Resident Bytes (Memory)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=System Cache Resident Bytes (系统缓存驻留字节数) 是文件系统缓存中可分页操作系统代码的大小 (以字节为单位)。该值只包括当前的物理页面，不包括当前未驻留的虚拟内存页面。它等于任务管理器中显示的系统缓存值。因此，该值可能会比文件系统缓存使用的实际虚拟内存量要小。该值是 Memory\System Code Resident Bytes (内存/系统代码驻留字节数) 的一部分，后者表示当前在物理内存中的所有可分页操作系统代码。此计数器不显示平均值，只显示最后观察到的值。

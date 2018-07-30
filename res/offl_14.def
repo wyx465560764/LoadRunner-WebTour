@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% Processor Time (Processor _Total)
+DataPointLabel_1=offline_datapoint_14
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% Processor Time (Processor _Total)
+GraphGroupMenuTitle=Windows 资源
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=% Privileged Time (特权时间百分比) 是指进程中的线程在特权模式下执行代码所花时间的百分比。在调用 Windows 系统服务时，该服务通常在特权模式下运行，以便访问系统专有数据。在用户模式下执行的线程无法访问这些数据。对系统的调用可以是显式的，也可以是隐式的，例如页面错误或中断。与某些早期操作系统不同，Windows 除了使用用户模式和特权模式这种传统保护方法外，还使用进程边界来保护子系统。除了在进程中的特权时间内出现，Windows 代表应用程序执行的某些操作还可能出现在其他子系统进程中。
